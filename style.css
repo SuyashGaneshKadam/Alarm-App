@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+#user-input{
+    width: 40vw;
+    margin: auto;
+    background-color: #34344A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#user-input>p, #timer, #timer input, #timer span{
+    background: transparent;
+}
+
+input{
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+    font-weight: bold;
+  }
+
+.buttons{
+    border: none;
+    background-color: #F0F757;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+}
+
+#current-timers{
+    background-color: #39393E;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20vw;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#activeTimers{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.no-timers-text{
+    color: white;
+}
+
+
+.timer-container {
+    width: 40vw;
+    margin: auto;
+    background-color: #34344A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.timer-container div{
+    background: transparent;
+}
+
+.timer {
+    font-size: 24px;
+}
+
+.timer-ended {
+    color: #34344A;
+    font-size: 30px;
+    margin-left: 120px;
+    font-weight: 700;
+}
+
+.time-up{
+    background-color: #F0F757;
+}
+
+.time-left {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button {
+    background-color: #34344A;
+    color: white;
+}
